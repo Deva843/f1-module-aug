@@ -43,6 +43,7 @@ ul > li:hover {
   border: 1px solid #2f80ed;
   background-color: transparent;
   box-shadow: none;
+  color:#2f80ed ;
 }
 .nav-1 {
   /* position: absolute; !important; */
@@ -329,6 +330,8 @@ word-spacing: 4px;
 } 
 .class-2{
     grid-area: b;
+    margin: 0px;
+    padding: 0px;
     
 }
 .class-3{
