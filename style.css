@@ -1,0 +1,355 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-style: italic ;
+  font-family: ABeeZee;
+  
+}
+.mynavbar {
+  width: 100%;
+  height: 110px;
+  /* background-color: blueviolet; */
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic ;
+  font-size: 1.2 rem;;
+  /* position: sticky;
+  top: 0px;
+  left: 0px; */
+}
+.logo:hover {
+  cursor: pointer;
+}
+links > ul {
+  margin-left: 0px;
+}
+ul > li {
+  list-style-type: none;
+  display: inline-block;
+  /* margin-left:20px; */
+  padding: 5px 20px;
+  /* text-align: center; */
+}
+ul > li:hover {
+  cursor: pointer;
+}
+.links > ul > li > button {
+  width: 108px;
+  height: 47px;
+  border-radius: 8px;
+  border: 1px solid #2f80ed;
+  background-color: transparent;
+  box-shadow: none;
+}
+.nav-1 {
+  /* position: absolute; !important; */
+  /* top: 110px; !important; */
+  width: 100%;
+  height: 77px;
+  text-align: center !important;
+  padding-top: 25px !important;
+  font-size: 1.5rem !important;
+  font-family: ABeeZee !important ;
+  font-style: italic !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* --------------hero----------- */
+.hero{
+    /* margin: 85px 0px !important; */
+    margin-top: 80px;
+    /* background-color:  #f7f0f0; */
+    /* background-color:  #f7f0f0 !important; */
+    width:100vw !important;
+    text-align: center !important;
+    /* height: 785px; */
+    /* text-align: center !important; */
+ 
+
+}
+.hero-1{
+    /* background-color:  #f7f0f0 !important; */
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    /* box-shadow: 2px 2px 2px purple; */
+    /* border: 1px solid blue; */
+    /* padding-inline: 50px !important; */
+}
+.hero-1:hover{
+    /* box-shadow: 1px 1px 1px pink; */
+}
+.feature-img-1{
+    padding-left: 20px;
+    width: 100%;
+}
+.feature-img-2{
+    margin-left: 0px;
+    width: 80%;
+    text-align: left;
+}
+.feature-img-3{
+    width: fit-content;
+    margin-top: 55px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid bisque;
+    border-radius: 10px;
+}
+.row{
+    gap: 75px !important;
+}
+.hero-2{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    /* background-image: conic-gradient(pink,blue,pink,blue); */
+    padding-inline: 20px !important;
+    box-shadow: 0px 2px 5px pink;
+
+}
+.hero-2-inner{
+    /* background-color: #f7f0f0; */
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+.hero-2-inner-2{
+    width: 80%;
+}
+.hero-form{
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.fa{
+    padding-right: 2px;
+}
+input{
+    border-style:none ;
+    width: 93%;
+    height: 3rem;
+    padding-inline: 5px;
+    border-radius: 5px;
+}
+input:hover{
+    box-shadow: 2px 2px 6px pink;
+    border-left: none;
+}
+/* .hero-2-inner-2-btn{
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+
+} */
+.bttn{
+    background-image: linear-gradient(to right,blue,purple ) !important;
+    /* border-radius: 10px !important; */
+    border: none !important;
+    /* transition: all 1s ease-in !important; */
+    
+    
+}
+.bttn:hover{
+    /* box-shadow: 1px 2px 6px burlywood !important; */
+    cursor:pointer !important;
+    
+
+}
+
+/* ------------------body---------------- */
+.body{
+    width: 100%;
+    height: 764px;
+    background-color: #ECF8FF;
+    margin: 10px;
+    padding:10px;
+}
+.body-top{
+    text-align: center;
+}
+.body-para,.body-h1{
+    color:#2F80ED;
+    word-spacing: 4px;
+    
+}
+.body-para{
+font-style: italic;
+}
+.bcol{
+    display: flex;
+    justify-content: center;
+}
+.bcol-1{
+    width: 498px;
+    height: 563px;
+    border-radius: 9px;
+    /* border: 1px solid blue; */
+    box-shadow: 0px 2px 5px pink;
+    padding: 10px;
+    margin: 10px; 
+    background-color: rgb(248, 250, 252); 
+    transition:all 1s ease-in-out;
+}
+.bcol-2{
+    width: 498px;
+    height: 563px;
+    border-radius: 9px;
+    box-shadow: 0px 2px 5px pink;
+    background-color: rgb(248, 250, 252); 
+    /* border: 1px solid blue; */
+    padding: 10px;
+    margin: 10px;
+    transition:all 1s ease-out;
+}
+/* .bcol-1:hover,.bcol-2:hover{
+    transform:scale(1.05);
+} */
+
+th,td{
+    text-align: left !important;
+}
+td{
+    text-align: center !important;
+}
+.fa-1{
+    /* width: 50px !important;
+    height: 50px !important; */
+    /* padding: 15px !important; */
+    margin-right: 5px;
+}
+.bttn-2{
+display: flex;
+width: 95%;
+justify-content: space-between;
+
+}
+.btn-card-1{
+    width: 201px;
+    flex:1;
+    margin-right: 5px;
+    background-color: antiquewhite;
+}
+.btn-card-2{
+    width: 210px;
+    flex:1;
+    margin-left: 5px;
+    background-color: antiquewhite;
+
+}
+/* ----------------------hiring partner------------- */
+.hiring-part{
+ margin: auto;
+width: 100%;
+height: 794px;
+border: 1px solid pink;
+text-align: center;
+padding: 30px;
+word-spacing: 4px;
+
+}
+.hpart-1{
+   
+}
+.hp-p{
+    color:#2F80ED;   
+}
+.hp-h{
+    font-weight: 500;
+}
+.hp-h1{
+    color:#2F80ED;
+}
+.hp-p1{
+    font-style: normal;
+}
+.table-h{
+    margin-inline: auto;
+}
+.table-h>tbody>tr>td{
+    padding: 30px;
+}
+.table-h>tbody>tr>td:hover{
+    cursor: pointer;
+}
+.btn-h{
+    font-style: italic  !important;
+    word-spacing: 2px !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    border: none !important;
+}
+.fa-2{
+    font-size: 0.8rem;
+}
+/* --------------footer------------------ */
+.foot{
+    text-align: center;
+    padding: 20px;
+}
+.foot>h2{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.grid-container{
+    width: 90%;
+    margin: 20px 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(7,85px);
+    /* grid-gap: 2px; */
+     grid-template-areas: 
+     "a b c"
+     "a b c"
+     "a b c"
+     "d b c"
+     "d b e"
+     "d f e"
+     "d f e"
+    
+    ; 
+}
+
+
+.class-1{
+    grid-area: a;
+    /* border: 1px solid pink; */
+    
+} 
+.class-2{
+    grid-area: b;
+    
+}
+.class-3{
+    grid-area: c;
+    
+}
+.class-4{
+    grid-area: d;
+    
+}
+.class-5{
+    grid-area: f;
+    
+}
+.class-6{
+    grid-area: e;
+    
+}
+.grid-container img{
+    padding: 0px ;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
